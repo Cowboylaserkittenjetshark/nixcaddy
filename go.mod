@@ -2,10 +2,7 @@ module caddy
 
 go 1.22.1
 
-require (
-	github.com/caddy-dns/cloudflare v0.0.0-20240405130444-44030f9306f4
-	github.com/caddyserver/caddy/v2 v2.7.6
-)
+require github.com/caddyserver/caddy/v2 v2.7.6
 
 require (
 	filippo.io/edwards25519 v1.0.0 // indirect
@@ -63,7 +60,6 @@ require (
 	github.com/jackc/pgx/v4 v4.18.0 // indirect
 	github.com/klauspost/compress v1.17.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
-	github.com/libdns/cloudflare v0.1.1 // indirect
 	github.com/libdns/libdns v0.2.2 // indirect
 	github.com/manifoldco/promptui v0.9.0 // indirect
 	github.com/mastercactapus/proxyprotocol v0.0.4 // indirect
