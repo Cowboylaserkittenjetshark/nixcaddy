@@ -22,6 +22,9 @@ schema = 3
   [mod."github.com/Microsoft/go-winio"]
     version = "v0.6.0"
     hash = "sha256-TQ0AvXZfuT3PDnb4p/h5zmyT8m9VPcwxlXMJuVD6ltE="
+  [mod."github.com/WeidiDeng/caddy-cloudflare-ip"]
+    version = "v0.0.0-20231130002422-f53b62aa13cb"
+    hash = "sha256-b2JPVdXBgbI91zRzXGut7QKYT/pe15Gcr3JvIKxvTH4="
   [mod."github.com/alecthomas/chroma/v2"]
     version = "v2.9.1"
     hash = "sha256-rqRjAGKEBtCzoNe3zS9x+J3CM2EwzQAQli5/DWEGtJo="
