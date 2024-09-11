@@ -37,9 +37,6 @@ schema = 3
   [mod."github.com/beorn7/perks"]
     version = "v1.0.1"
     hash = "sha256-h75GUqfwJKngCJQVE5Ao5wnO3cfKD9lSIteoLp/3xJ4="
-  [mod."github.com/caddy-dns/cloudflare"]
-    version = "v0.0.0-20240405130444-44030f9306f4"
-    hash = "sha256-mPOon1Fb+ZqH+wc9pnArF0iMXcAoksGLMeGA6EfDR+A="
   [mod."github.com/caddyserver/caddy/v2"]
     version = "v2.8.4"
     hash = "sha256-Cwnn4zudKQApxVxmdIFSiD813S00qzdmFjAA1PFoTE8="
