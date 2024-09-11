@@ -22,9 +22,6 @@ schema = 3
   [mod."github.com/Microsoft/go-winio"]
     version = "v0.6.0"
     hash = "sha256-TQ0AvXZfuT3PDnb4p/h5zmyT8m9VPcwxlXMJuVD6ltE="
-  [mod."github.com/WeidiDeng/caddy-cloudflare-ip"]
-    version = "v0.0.0-20231130002422-f53b62aa13cb"
-    hash = "sha256-b2JPVdXBgbI91zRzXGut7QKYT/pe15Gcr3JvIKxvTH4="
   [mod."github.com/alecthomas/chroma/v2"]
     version = "v2.13.0"
     hash = "sha256-fYwAHQFWGWzcMO8XPNzR7iAUarVGMKJjfX1DB74AmrA="
@@ -181,9 +178,6 @@ schema = 3
   [mod."github.com/klauspost/cpuid/v2"]
     version = "v2.2.7"
     hash = "sha256-bjinp7b7qWk+DcZDDv1EedJxZqGxp2NWY+NYKBfE5xU="
-  [mod."github.com/libdns/cloudflare"]
-    version = "v0.1.1"
-    hash = "sha256-Yly2VkT4krKqTCjRMTpDu3/2EXIoRSZBoQ8F4fP7PqI="
   [mod."github.com/libdns/libdns"]
     version = "v0.2.2"
     hash = "sha256-RaJz49yg14WVAxmmqvNfsL4PmQ16asg1rIipIKM3/QM="
