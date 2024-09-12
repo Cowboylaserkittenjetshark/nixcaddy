@@ -16,7 +16,7 @@
 }:
 
 let
-  version = "2.7.6";
+  version = "2.8.4";
   dist = fetchFromGitHub {
     owner = "caddyserver";
     repo = "dist";
