@@ -21,5 +21,6 @@ pkgs.mkShell {
     goEnv
     gomod2nix
     pkgs.just
+    pkgs.ripgrep
   ];
 }
