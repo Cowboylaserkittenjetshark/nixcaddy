@@ -14,10 +14,27 @@ The `main` branch functions as a template. For an example, see the branch `my-pl
 You can then override the caddy package with your own:
 ```nix
 # Example nixos module
-{inputs, ...}: {
+# Emits a warning during build if nixcaddy is outdated compared to nixpkgs' caddy
+{
+  inputs,
+  lib,
+  pkgs,
+  ...
+}: let
+  inherit (lib) warnIfNot versionAtLeast;
+  customCaddyPkg = inputs.custom-caddy.packages.${pkgs.system}.default;
+  defaultCaddyPkg = pkgs.caddy;
+in {
   services.caddy = {
     enable = true;
-    package = inputs.custom-caddy.packages.${pkgs.system}.default;
-  };
-}
+    package =   
+        lib.warnIfNot
+        (lib.versionAtLeast customCaddyPkg.version defaultCaddyPkg.version)
+        ''          The version of Caddy in the package is older than the version in your version of nixpkgs
+                      Caddy from nixpkgs:  ${defaultCaddyPkg.version}
+                      Caddy form nixcaddy: ${customCaddyPkg.version}
+        ''
+        customCaddyPkg;
+      };
+    }
 ```
