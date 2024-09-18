@@ -41,8 +41,8 @@ schema = 3
     version = "v0.0.0-20240405130444-44030f9306f4"
     hash = "sha256-mPOon1Fb+ZqH+wc9pnArF0iMXcAoksGLMeGA6EfDR+A="
   [mod."github.com/caddyserver/caddy/v2"]
-    version = "v2.8.2"
-    hash = "sha256-139XfNKK+2yGWQ9dstbhqk5eIIGfaHLl2YaUg+Ja1Hw="
+    version = "v2.8.4"
+    hash = "sha256-Cwnn4zudKQApxVxmdIFSiD813S00qzdmFjAA1PFoTE8="
   [mod."github.com/caddyserver/certmagic"]
     version = "v0.21.3"
     hash = "sha256-UhKUVN3a1iAcGk2KtLKD9PBf6rtmIFb8jVVuCdKBHuc="
