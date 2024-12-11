@@ -13,16 +13,11 @@
 , buildGoApplication ? pkgs.buildGoApplication
 , fetchFromGitHub
 , installShellFiles
+, dist
 }:
 
 let
   version = "2.9.0-beta.3";
-  dist = fetchFromGitHub {
-    owner = "caddyserver";
-    repo = "dist";
-    rev = "v${version}";
-    hash = "sha256-aZ7hdAZJH1PvrX9GQLzLquzzZG3LZSKOvt7sWQhTiR8=";
-  };
 in buildGoApplication {
   pname = "caddy";
   inherit version;

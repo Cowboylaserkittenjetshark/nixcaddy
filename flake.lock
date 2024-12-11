@@ -1,5 +1,22 @@
 {
   "nodes": {
+    "dist": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1717091107,
+        "narHash": "sha256-O4s7PhSUTXoNEIi+zYASx8AgClMC5rs7se863G6w+l0=",
+        "ref": "refs/tags/v2.8.4",
+        "rev": "73071a3ce412ae80c8c78444c49c09738dd7d9fa",
+        "revCount": 115,
+        "type": "git",
+        "url": "https://github.com/caddyserver/dist"
+      },
+      "original": {
+        "owner": "caddyserver",
+        "repo": "dist",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -59,6 +76,7 @@
     },
     "root": {
       "inputs": {
+        "dist": "dist",
         "flake-utils": "flake-utils",
         "gomod2nix": "gomod2nix",
         "nixpkgs": "nixpkgs"

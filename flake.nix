@@ -7,7 +7,12 @@
   inputs.gomod2nix.inputs.nixpkgs.follows = "nixpkgs";
   inputs.gomod2nix.inputs.flake-utils.follows = "flake-utils";
 
-  outputs = { self, nixpkgs, flake-utils, gomod2nix }:
+  inputs.dist = {
+    url = "github:caddyserver/dist";
+    flake = false;
+  };
+
+  outputs = { self, nixpkgs, flake-utils, gomod2nix, dist }:
     (flake-utils.lib.eachDefaultSystem
       (system:
         let
@@ -20,6 +25,7 @@
         {
           packages.default = callPackage ./. {
             inherit (gomod2nix.legacyPackages.${system}) buildGoApplication;
+            inherit dist;
           };
           devShells.default = callPackage ./shell.nix {
             inherit (gomod2nix.legacyPackages.${system}) mkGoEnv gomod2nix;
