@@ -3,11 +3,11 @@
     "dist": {
       "flake": false,
       "locked": {
-        "lastModified": 1730246671,
-        "narHash": "sha256-3QcpmPUhZZ8oN/CUbCh/A1D0B59o1RxWPyMbA/WoRcU=",
+        "lastModified": 1735716344,
+        "narHash": "sha256-28ahonJ0qeynoqf02gws0LstaL4E08dywSJ8s3tgEDI=",
         "owner": "caddyserver",
         "repo": "dist",
-        "rev": "33ae08ff08d168572df2956ed14fbc4949880d94",
+        "rev": "1ae33b176567cc41823485fcd40a5901d77df66c",
         "type": "github"
       },
       "original": {
