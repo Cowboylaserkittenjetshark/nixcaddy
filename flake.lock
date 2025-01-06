@@ -3,13 +3,12 @@
     "dist": {
       "flake": false,
       "locked": {
-        "lastModified": 1717091107,
-        "narHash": "sha256-O4s7PhSUTXoNEIi+zYASx8AgClMC5rs7se863G6w+l0=",
-        "ref": "refs/tags/v2.8.4",
-        "rev": "73071a3ce412ae80c8c78444c49c09738dd7d9fa",
-        "revCount": 115,
-        "type": "git",
-        "url": "https://github.com/caddyserver/dist"
+        "lastModified": 1735716344,
+        "narHash": "sha256-28ahonJ0qeynoqf02gws0LstaL4E08dywSJ8s3tgEDI=",
+        "owner": "caddyserver",
+        "repo": "dist",
+        "rev": "1ae33b176567cc41823485fcd40a5901d77df66c",
+        "type": "github"
       },
       "original": {
         "owner": "caddyserver",

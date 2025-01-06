@@ -17,7 +17,7 @@
 }:
 
 let
-  version = "2.9.0-beta.3";
+  version = "2.9.0";
 in buildGoApplication {
   pname = "caddy";
   inherit version;
