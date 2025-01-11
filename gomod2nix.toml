@@ -44,11 +44,11 @@ schema = 3
     version = "v0.0.0-20240405130444-44030f9306f4"
     hash = "sha256-mPOon1Fb+ZqH+wc9pnArF0iMXcAoksGLMeGA6EfDR+A="
   [mod."github.com/caddyserver/caddy/v2"]
-    version = "v2.9.0"
-    hash = "sha256-FQPNUz4xwPzQaky4hJwsBl/DJmQ9/b/ZJkQRlUlx63Y="
+    version = "v2.9.1"
+    hash = "sha256-oxN/NLCDF7Gd9/NF00oiUEOzyXCctkX/+5IILs00SfU="
   [mod."github.com/caddyserver/certmagic"]
-    version = "v0.21.5"
-    hash = "sha256-SstdPLiDZUfXsv204o7aYh4tsawCf0QaC+sOIczSLU8="
+    version = "v0.21.6"
+    hash = "sha256-e2ETqZpzMmEKALasGVCMdwLE5z7w0RjTrNjAPEq6lUU="
   [mod."github.com/caddyserver/zerossl"]
     version = "v0.1.3"
     hash = "sha256-BqaTshe3Hum7YSILJNFG0Y2fzgwFN42FzU2qQXWluZo="
