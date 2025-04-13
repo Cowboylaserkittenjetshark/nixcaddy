@@ -41,8 +41,8 @@ schema = 3
     version = "v1.0.1"
     hash = "sha256-h75GUqfwJKngCJQVE5Ao5wnO3cfKD9lSIteoLp/3xJ4="
   [mod."github.com/caddy-dns/cloudflare"]
-    version = "v0.0.0-20240405130444-44030f9306f4"
-    hash = "sha256-mPOon1Fb+ZqH+wc9pnArF0iMXcAoksGLMeGA6EfDR+A="
+    version = "v0.1.0"
+    hash = "sha256-nLpiXMHTKTfmc5TBkPErkvXf/d2tWBlv2h4A+ELrraU="
   [mod."github.com/caddyserver/caddy/v2"]
     version = "v2.9.1"
     hash = "sha256-oxN/NLCDF7Gd9/NF00oiUEOzyXCctkX/+5IILs00SfU="
@@ -188,11 +188,11 @@ schema = 3
     version = "v2.2.9"
     hash = "sha256-6UnDBLqlTsKVeZNl5snKQiEBb8xGK5yyg2eZBg7QHLs="
   [mod."github.com/libdns/cloudflare"]
-    version = "v0.1.1"
-    hash = "sha256-Yly2VkT4krKqTCjRMTpDu3/2EXIoRSZBoQ8F4fP7PqI="
+    version = "v0.1.3"
+    hash = "sha256-7795IsmMrv2iAsHjYMJpcNf812NgmzfgrrmKAtgQU7s="
   [mod."github.com/libdns/libdns"]
-    version = "v0.2.2"
-    hash = "sha256-RaJz49yg14WVAxmmqvNfsL4PmQ16asg1rIipIKM3/QM="
+    version = "v0.2.3"
+    hash = "sha256-luxWZJLKdrfbq8Jkd3y+uOmEB60sJI4mpHrOCgOqfv0="
   [mod."github.com/manifoldco/promptui"]
     version = "v0.9.0"
     hash = "sha256-Fe2OPoyRExZejwtUBivKhfJAJW7o9b1eyYpgDlWQ1No="

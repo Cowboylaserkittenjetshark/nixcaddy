@@ -23,6 +23,7 @@ in buildGoApplication {
   inherit version;
   pwd = ./.;
   src = ./.;
+  go = pkgs.go_1_24;
   modules = ./gomod2nix.toml;
 
   ldflags = [
