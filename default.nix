@@ -17,12 +17,13 @@
 }:
 
 let
-  version = "2.9.1";
+  version = "2.10.0";
 in buildGoApplication {
   pname = "caddy";
   inherit version;
   pwd = ./.;
   src = ./.;
+  go = pkgs.go_1_24;
   modules = ./gomod2nix.toml;
 
   ldflags = [
