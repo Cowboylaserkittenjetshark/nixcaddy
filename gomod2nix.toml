@@ -47,8 +47,8 @@ schema = 3
     version = "v1.0.1"
     hash = "sha256-h75GUqfwJKngCJQVE5Ao5wnO3cfKD9lSIteoLp/3xJ4="
   [mod."github.com/caddy-dns/cloudflare"]
-    version = "v0.1.0"
-    hash = "sha256-nLpiXMHTKTfmc5TBkPErkvXf/d2tWBlv2h4A+ELrraU="
+    version = "v0.2.1"
+    hash = "sha256-MV41X6aIcgxG8XlAYcIDapB1OvIoJb5xlltGHQByKto="
   [mod."github.com/caddyserver/caddy/v2"]
     version = "v2.10.0"
     hash = "sha256-0T7nQKH6WvzupskfHUpV0UHLlX8FLzSmreDd8G4DXU0="
@@ -194,8 +194,8 @@ schema = 3
     version = "v2.2.10"
     hash = "sha256-o21Tk5sD7WhhLUoqSkymnjLbzxl0mDJCTC1ApfZJrC0="
   [mod."github.com/libdns/cloudflare"]
-    version = "v0.1.3"
-    hash = "sha256-7795IsmMrv2iAsHjYMJpcNf812NgmzfgrrmKAtgQU7s="
+    version = "v0.2.1"
+    hash = "sha256-8wvaJqMhQCuaVfhcLBistYLigTv4kHvIA4mwuJlpJeM="
   [mod."github.com/libdns/libdns"]
     version = "v1.0.0-beta.1"
     hash = "sha256-qXFtc+YsMrILzrDWzRnY2LPNYWiGmWf01asxzIY+CJo="
@@ -215,8 +215,8 @@ schema = 3
     version = "v3.1.2"
     hash = "sha256-j1rtITe11qqlteBYLwcU08V3YZAWDegrKKqmY5IM0E4="
   [mod."github.com/miekg/dns"]
-    version = "v1.1.63"
-    hash = "sha256-nE+yMMS22ELMu6KDu8uUUreCgJIm5FShjrMHRw5dEMQ="
+    version = "v1.1.65"
+    hash = "sha256-O/03heOio/2L5ixuWe0r9oB1D/7dtPq9PDdxoXq6o9E="
   [mod."github.com/mitchellh/copystructure"]
     version = "v1.2.0"
     hash = "sha256-VR9cPZvyW62IHXgmMw8ee+hBDThzd2vftgPksQYR/Mc="
@@ -389,8 +389,8 @@ schema = 3
     version = "v0.3.0"
     hash = "sha256-ZGCV0TCXUBxIqEOJL6LtQJJB36U4e6VMnZ2k0kY8r5g="
   [mod."golang.org/x/crypto"]
-    version = "v0.36.0"
-    hash = "sha256-Np+suvZdMOXALDm4m8nDNa+QsvUV0rE0PEINuxCoKGM="
+    version = "v0.37.0"
+    hash = "sha256-9NwDEcii1e2JYM/+3y1yNzWnt/ChMm27e9OtfuF39OM="
   [mod."golang.org/x/crypto/x509roots/fallback"]
     version = "v0.0.0-20250305170421-49bf5b80c810"
     hash = "sha256-sOWGDO44qHSR9xBFeAx48g9ArO70JOy7OKbJjZ620hM="
@@ -401,26 +401,26 @@ schema = 3
     version = "v0.24.0"
     hash = "sha256-Lrl4RzOO0J/S5E+AQ7Y6yh8B9yygvZ2W0fsKEtBSYNU="
   [mod."golang.org/x/net"]
-    version = "v0.38.0"
-    hash = "sha256-iHmyxkZQLw1PsUZaXHMt84GrjbXPvkEc92sLoK3W++c="
+    version = "v0.39.0"
+    hash = "sha256-IP29+yGphWKUT7wHTyzqA2rnRT4AJ7oWcT6NKLzkWcM="
   [mod."golang.org/x/sync"]
-    version = "v0.12.0"
-    hash = "sha256-lPIbI6aXx+iKtFjPaXKNLEnuNfhHCVl7EQiE7alUvlM="
+    version = "v0.13.0"
+    hash = "sha256-CElRNe74Or/ysUkb/m3Wcz/juO/tB5fhQbAaxA5AizY="
   [mod."golang.org/x/sys"]
-    version = "v0.31.0"
-    hash = "sha256-aulv5obCrhheMlSq7seUgP3C29nfZABwiQ4IBNisgME="
+    version = "v0.32.0"
+    hash = "sha256-c9RRnyKQy9Kl8hpbtcgkm1O5H7gOdk9Rv925F8fZS6E="
   [mod."golang.org/x/term"]
-    version = "v0.30.0"
-    hash = "sha256-bgN4cMED7P2SqFZQZPNRPJL2Px35chNoWaqNhLDEoZM="
+    version = "v0.31.0"
+    hash = "sha256-Oy/fGIj1/4byUQKqWPNKKSybeUfEK2s1Os22OVrZUAc="
   [mod."golang.org/x/text"]
-    version = "v0.23.0"
-    hash = "sha256-TiYX1K4DYpP1dEV06whOm43xyOntjrPFi+VAdncoeCY="
+    version = "v0.24.0"
+    hash = "sha256-qFbmteGOvJfvbLXiOSI8Fsz5Ixt2ZhSYx0/sIqApC7Y="
   [mod."golang.org/x/time"]
     version = "v0.11.0"
     hash = "sha256-ImTej/e5iUHbWPZMA4M2GYbsbiiZQxIrgcnYsc7uD68="
   [mod."golang.org/x/tools"]
-    version = "v0.31.0"
-    hash = "sha256-NXyG75xnCUX4EpW0Jmm1qpPbwhaiMxgJqvCU1X5oGyk="
+    version = "v0.32.0"
+    hash = "sha256-nCcgtl0trmuGKWvMkJ2Rn4Q8CnNATdVrBfA1sgLGPUk="
   [mod."google.golang.org/genproto/googleapis/api"]
     version = "v0.0.0-20241007155032-5fefd90f89a9"
     hash = "sha256-fxuSxp7iwV3dORZlKfgZEOKQhzXIgcVah/60GnQEMJ8="
